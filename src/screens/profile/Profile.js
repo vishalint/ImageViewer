@@ -85,7 +85,7 @@ TabContainer.propTypes = {
     children: PropTypes.node.isRequired
 }
 
-/*Class component Profile defined with constructor & it's states */
+
 
 class Profile extends Component {
 
@@ -104,7 +104,7 @@ class Profile extends Component {
         }
     }
 
-    /* Event  Handler Functions Definitions  */
+    
 
     updateClickHandler = (e) => {
 
@@ -150,7 +150,7 @@ class Profile extends Component {
         });
     }
 
-    /*Code written to make two API calls as per the definitions provided in problem statement */
+    
 
     componentWillMount() {
 
@@ -168,7 +168,7 @@ class Profile extends Component {
         xhr.open("GET", this.props.baseUrl + "?access_token=8661035776.d0fcd39.39f63ab2f88d4f9c92b0862729ee2784");
         xhr.send(ownerData);
 
-        // Get media info of owner after authenticated by accessToken
+        
         let mediaData = null;
         let xhrMediaData = new XMLHttpRequest();
 
