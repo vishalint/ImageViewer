@@ -19,7 +19,7 @@ import Avatar from '@material-ui/core/Avatar';
 import pencil from '../../assets/icon/pencil.png';
 import hearticon from '../../assets/icon/hearticon.svg';
 
-/* Defined classes styles for all relevant imported components */
+
 
 const styles = theme => ({
 
